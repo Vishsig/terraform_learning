@@ -16,7 +16,7 @@ terraform apply       # Create (type 'yes')
 terraform output      # View results
 terraform destroy     # Cleanup (IMPORTANT!)
 
-Prerequisites: AWS CLI configured, Terraform installed, Free Tier account.
+Prerequisites: AWS CLI configured, Terraform installed, Free Tier account
 
 🏗️ Repository Structure
 text
