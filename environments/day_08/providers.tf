@@ -11,13 +11,3 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
-
-# Create a S3 bucket
-resource "aws_s3_bucket" "demo_bucket" {
-  bucket = "day-3-demo-bucket"
-
-  tags = {
-    Name        = "My bucket"
-    Environment = "Demo"
-  }
-}

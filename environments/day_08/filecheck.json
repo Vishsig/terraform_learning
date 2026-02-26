@@ -1,0 +1,24 @@
+{
+    "app": {
+        "name": "demo-service",
+        "environment": "dev",
+        "version": "1.0.0"
+    },
+    "network": {
+        "port": 8080,
+        "enable_tls": false,
+        "allowed_cidrs": [
+            "10.0.0.0/16",
+            "192.168.0.0/24"
+        ]
+    },
+    "tags": {
+        "owner": "aurora",
+        "cost_center": "platform"
+    },
+    "features": [
+        "metrics",
+        "healthcheck"
+    ],
+    "notes": null
+}
