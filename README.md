@@ -16,6 +16,7 @@ Terraform learning sprint documenting practical AWS Infrastructure as Code (IaC)
 | 08 | Terraform Functions | String, math, collection, and file functions in locals | S3 bucket |
 | 09 | Data Sources | Fetching existing VPC, subnets, and querying AMIs | EC2 instance |
 | 10 | Static Website Project | CloudFront, OAC, S3 bucket policies, `fileset` function | S3 Website + CloudFront CDN |
+| 11 | VPC Peering Demo | Multi-region providers, VPC peering, Route Tables, Aliases | VPCs, EC2s, Peering Connection |
 
 ## 🚀 Quick Start (Any Day)
 
@@ -45,7 +46,8 @@ terraform-learning/
 │   ├── day_07/             # Dynamic blocks and conditional expressions
 │   ├── day_08/             # Built-in Terraform functions
 │   ├── day_09/             # Data sources and querying AWS
-│   └── day_10/             # CloudFront + S3 Static Website project
+│   ├── day_10/             # CloudFront + S3 Static Website project
+│   └── day_11/             # Multi-region VPC Peering Demo
 ├── screenshots/            # AWS Console proof
 └── .gitignore              # Protects .terraform/, tfstate
 ```
