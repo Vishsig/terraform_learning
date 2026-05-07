@@ -20,6 +20,8 @@ Terraform learning sprint documenting practical AWS Infrastructure as Code (IaC)
 | 12 | IAM & CSV Processing | `csvdecode`, `for_each`, complex data filtering (`regex`, `can`) | IAM Users, Profiles, Groups |
 | 13 | Blue-Green Deployment | Elastic Beanstalk environments, CNAME Swapping, Zero-downtime deployment | Elastic Beanstalk App, Environments |
 | 14 | Serverless Image Processing | Lambda functions, layers, S3 event notifications, IAM policies | S3 Buckets, Lambda |
+| 15 | Terraform Provisioners | `local-exec`, `remote-exec`, `file` provisioners on EC2 | EC2 instance, provisioner scripts |
+| 16 | Production EKS Cluster | Custom modules, VPC tags, IAM roles, Managed Node Groups | EKS Cluster, VPC, IAM, Node Groups |
 
 ## 🚀 Quick Start (Any Day)
 
@@ -53,7 +55,9 @@ terraform-learning/
 │   ├── day_11/             # Multi-region VPC Peering Demo
 │   ├── day_12/             # IAM users & groups scaling with CSV decode
 │   ├── day_13/             # AWS Elastic Beanstalk Blue-Green Deployment
-│   └── day_14/             # Serverless Image Processing (S3 + Lambda)
+│   ├── day_14/             # Serverless Image Processing (S3 + Lambda)
+│   ├── day_15/             # Terraform Provisioners (local-exec, remote-exec, file)
+│   └── day_16/             # Production EKS Cluster with Custom Modules
 ├── screenshots/            # AWS Console proof
 └── .gitignore              # Protects .terraform/, tfstate
 ```
