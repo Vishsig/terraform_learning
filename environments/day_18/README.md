@@ -1,4 +1,4 @@
-# Day 22: RDS Database (Mini Project 8)
+# Day 18: RDS Database (Mini Project 8)
 
 ## Overview
 
